@@ -23,9 +23,8 @@ jobs:
 
             - name: Install requirements
               run: |
-                cd model-demo
-                pip install --upgrade pip
-                pip install -r ../requirements.txt
+                    pip install --upgrade pip
+                    pip install -r requirements.txt
 
 
             - name: Train model
