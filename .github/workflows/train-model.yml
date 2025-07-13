@@ -34,7 +34,7 @@ jobs:
                 python model.py
 
             - name: Upload artifact
-              uses: actions/upoad-artifact@v4
+              uses: actions/upload-artifact@v4
               with:
                 name: loan-model
                 path: model-demo/model.pkl
