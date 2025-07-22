@@ -1,0 +1,38 @@
+{
+  "model_type": "RandomForestClassifier",
+  "feature_names": [
+    "age",
+    "income",
+    "loan_amount",
+    "credit_score",
+    "employment_years",
+    "debt_to_income",
+    "education",
+    "marital_status",
+    "property_type"
+  ],
+  "n_features": 9,
+  "accuracy": 0.95,
+  "training_timestamp": "2025-07-15T17:53:13.418207",
+  "label_encoders": {
+    "education": [
+      "Associate",
+      "Bachelor",
+      "High School",
+      "Master",
+      "PhD"
+    ],
+    "marital_status": [
+      "Divorced",
+      "Married",
+      "Single",
+      "Widowed"
+    ],
+    "property_type": [
+      "Apartment",
+      "Condo",
+      "House",
+      "None"
+    ]
+  }
+}
